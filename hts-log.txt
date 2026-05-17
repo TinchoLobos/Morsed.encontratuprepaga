@@ -1,0 +1,38 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 13 May 2026 13:45:57 at https://encontratuprepaga.com.ar/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://encontratuprepaga.com.ar/ -O1 "C:\My Web Sites\EncontraTuPrepaga" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:48:26	Warning: 	Moved Permanently for https://encontratuprepaga.com.ar/prepaga/?feed=rss2
+13:48:26	Warning: 	File has moved from https://encontratuprepaga.com.ar/prepaga/?feed=rss2 to https://encontratuprepaga.com.ar/prepaga/feed/
+13:48:26	Warning: 	Moved Permanently for https://encontratuprepaga.com.ar/?p=213
+13:48:26	Warning: 	File has moved from https://encontratuprepaga.com.ar/?p=213 to https://encontratuprepaga.com.ar/prepaga/avalian/
+13:48:26	Warning: 	Moved Permanently for https://encontratuprepaga.com.ar/?p=211
+13:48:26	Warning: 	File has moved from https://encontratuprepaga.com.ar/?p=211 to https://encontratuprepaga.com.ar/prepaga/prevencion-salud/
+13:48:26	Warning: 	Moved Permanently for https://encontratuprepaga.com.ar/?p=209
+13:48:26	Warning: 	File has moved from https://encontratuprepaga.com.ar/?p=209 to https://encontratuprepaga.com.ar/prepaga/medife/
+13:48:26	Warning: 	Moved Permanently for https://encontratuprepaga.com.ar/?p=207
+13:48:26	Warning: 	File has moved from https://encontratuprepaga.com.ar/?p=207 to https://encontratuprepaga.com.ar/prepaga/sancor-salud/
+13:48:26	Warning: 	Moved Permanently for https://encontratuprepaga.com.ar/?p=205
+13:48:26	Warning: 	File has moved from https://encontratuprepaga.com.ar/?p=205 to https://encontratuprepaga.com.ar/prepaga/galeno/
+13:48:26	Warning: 	Moved Permanently for https://encontratuprepaga.com.ar/?p=203
+13:48:26	Warning: 	File has moved from https://encontratuprepaga.com.ar/?p=203 to https://encontratuprepaga.com.ar/prepaga/swiss-medical/
+13:48:26	Warning: 	Moved Permanently for https://encontratuprepaga.com.ar/?p=201
+13:48:26	Warning: 	File has moved from https://encontratuprepaga.com.ar/?p=201 to https://encontratuprepaga.com.ar/prepaga/doctored/
+13:48:26	Warning: 	Moved Permanently for https://encontratuprepaga.com.ar/?p=68
+13:48:26	Warning: 	File has moved from https://encontratuprepaga.com.ar/?p=68 to https://encontratuprepaga.com.ar/nosotros/
+13:48:26	Warning: 	Moved Permanently for https://encontratuprepaga.com.ar/?p=80
+13:48:26	Warning: 	File has moved from https://encontratuprepaga.com.ar/?p=80 to https://encontratuprepaga.com.ar/contacto/
+13:48:26	Warning: 	Moved Permanently for https://encontratuprepaga.com.ar/?p=655
+13:48:26	Warning: 	File has moved from https://encontratuprepaga.com.ar/?p=655 to https://encontratuprepaga.com.ar/politica-de-privacidad/
+13:48:26	Warning: 	Moved Permanently for https://encontratuprepaga.com.ar/?p=659
+13:48:26	Warning: 	File has moved from https://encontratuprepaga.com.ar/?p=659 to https://encontratuprepaga.com.ar/politica-de-cookies/
+13:48:26	Warning: 	Moved Permanently for https://encontratuprepaga.com.ar/?p=661
+13:48:26	Warning: 	File has moved from https://encontratuprepaga.com.ar/?p=661 to https://encontratuprepaga.com.ar/aviso-legal/
+13:48:28	Error: 	"Not Found" (404) at link https://encontratuprepaga.com.ar/prepaga/feed/ (from https://encontratuprepaga.com.ar/prepaga/?feed=rss2)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 31 seconds : 215 links scanned, 200 files written (12593081 bytes overall) [7616337 bytes received at 50439 bytes/sec], 7216763 bytes transferred using HTTP compression in 165 files, ratio 28%, 8.9 requests per connection
+(1 errors, 26 warnings, 0 messages)
