@@ -161,6 +161,11 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 <link rel="apple-touch-icon" href="wp-content/uploads/2025/11/favi-encontra-300x300.png" />
 <meta name="msapplication-TileImage" content="https://encontratuprepaga.com.ar/wp-content/uploads/2025/11/favi-encontra-300x300.png" />
     <style>
+    /* Elimina margen y padding superior de la pagina y la cabecera para quitar el gap */
+    html, body, .elementor-location-header {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
     /* Reduce espacio superior de los contenedores .e-con-inner en header y hero */
     .elementor-location-header .e-con-inner,
     .elementor-element-a0e5f72 > .e-con-inner {
@@ -195,16 +200,31 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 			padding-bottom: 0 !important;
 		}
 	}
+	/* Mobile: hacer el navbar más fino (menor altura y tamaño) */
+	@media (max-width: 767px) {
+		/* Reducir padding vertical de la cabecera */
+		.elementor-location-header .e-con-inner {
+			padding-block-start: 4px !important;
+			padding-block-end: 4px !important;
+		}
+		/* Reducir el tamaño máximo del logo en móvil para achicar el alto de navbar */
+		.elementor-location-header .elementor-element-02fe353 img {
+			max-height: 40px !important;
+			width: auto !important;
+		}
+		/* Ajustar los márgenes del menú hamburguesa */
+		.elementor-location-header .elementor-menu-toggle {
+			margin-top: 0 !important;
+			margin-bottom: 0 !important;
+			padding: 4px !important;
+		}
+	}
     </style>
 </head>
 <body class="home wp-singular page-template page-template-elementor_header_footer page page-id-65 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor hello-elementor-default elementor-default elementor-template-full-width elementor-kit-61 elementor-page elementor-page-65">
 
 <a class="skip-link screen-reader-text" href="#content">Ir al contenido</a>
 <header data-elementor-type="header" data-elementor-id="649" class="elementor elementor-649 elementor-location-header" data-elementor-post-type="elementor_library">
-
-					<div class="e-con-inner">
-					</div>
-				</div>
 		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-8bdbdd2 e-flex e-con-boxed e-con e-parent" data-id="8bdbdd2" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}">
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-02fe353 elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="02fe353" data-element_type="widget" data-widget_type="theme-site-logo.default">
